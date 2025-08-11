@@ -161,7 +161,10 @@ class MainActivity : ComponentActivity() {
                             .padding(top = 52.dp)
                     ) {
                         TituloContatos("Lista de Contatos")
-                        LazyColumn {
+                        LazyColumn (
+                            modifier = Modifier
+                                .fillMaxSize()
+                        ) {
                             items(contatos) { contato ->
                                 ListaContatos(
                                     contato = contato,
