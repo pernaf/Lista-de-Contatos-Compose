@@ -8,4 +8,5 @@ Esse aplicativo foi desenvolvido para praticar desenvolvimento de listas em dese
 - Kotlin
 - Compose
 - Lazy Column
+- Column
 - Data Class
